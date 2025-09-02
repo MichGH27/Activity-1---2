@@ -1,0 +1,199 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drama Collections</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: black;
+      color: white;
+    }
+
+    header, footer {
+      text-align: center;
+      padding: 0;
+    }
+
+    .image-container {
+      position: relative;
+      text-align: center;
+    }
+
+    .image-container img.bg {
+      width: 100%;
+      height: auto;
+      opacity: 0.5;
+      display: block;
+    }
+
+    .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 80%;
+    }
+
+    table {
+      width: 100px;
+      margin: auto;
+      border-collapse:0;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    caption {
+      caption-side: center;
+      font-weight: light;
+      margin-bottom: 5px;
+      font-size: 20px;
+      color: white;
+    }
+
+    th, td {
+      border: 0.5px solid white;
+      padding: 0;
+      text-align: center;
+      vertical-align: center;
+    }
+
+    th {
+      background-color: gray;
+      font-size: 18px;
+    }
+
+    img.poster {
+      width: 160px;
+      height: 175px;
+      border-radius: 0;
+      box-shadow: 0 rgba(0,0,0,0);
+      transition: transform 0.3s ease;
+    }
+
+    img.poster:hover {
+      transform: scale(1.05);
+    }
+
+    .poster-title {
+      margin-top: 10px;
+      font-weight: bold;
+      color: white;
+      font-size: 14px;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1 style="color:white"><b><del>Drama Collections</del></b></h1>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <div class="image-container">
+      <!-- Background -->
+      <img class="bg" src="https://images.nagwa.com/963103576591.jpg" alt="Starry night background" title="Stars">
+
+      <!-- Overlay table -->
+      <div class="overlay-text">
+        <table>
+          <caption><q><i>Popular Dramas</i></q></caption>
+
+          <!-- Row 1 -->
+          <tr>
+         <th><ins>Drama</ins><sup>1</sup></th>
+         <th><ins>Drama</ins><sup>2</sup></th>
+         <th><ins>Drama</ins><sup>3</sup></th>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.google.com/search?q=Fighter+of+the+Destiny" target="_blank">
+                <img class="poster" src="https://image.tmdb.org/t/p/original/qkXwxhiDTfx4AV8zwp02SZ6EufZ.jpg" alt="Fighter of the Destiny poster">
+                <div class="poster-title"><mark><em>Fighter of the Destiny</em></mark></div>
+              </a>
+            </td>
+            <td>
+              <a href="https://www.google.com/search?q=The+Twin+Flower+Legend" target="_blank">
+                <img class="poster" src="https://i0.wp.com/www.cdramalove.com/wp-content/uploads/2020/05/The-Twin-Flower-Legend-Poster.jpg?w=1170&ssl=1" alt="The Twin Flower Legend poster">
+                <div class="poster-title"><mark><em>The Twin Flower Legend</em></mark></div>
+              </a>
+            </td>
+            <td>
+              <a href="https://www.google.com/search?q=Boys+Over+Flowers+drama" target="_blank">
+                <img class="poster" src="https://tse4.mm.bing.net/th/id/OIP.DZb4F77Cuj41Jhu7TbNQyQHaFx?pid=Api&P=0&h=220" alt="Boys Over Flowers poster">
+                <div class="poster-title"><mark><em>Boys Over Flowers</em></mark></div>
+              </a>
+            </td>
+          </tr>
+
+          <!-- Row 2 -->
+          <tr>
+         <th><ins>Drama</ins><sup>4</sup></th>
+         <th><ins>Drama</ins><sup>5</sup></th>
+         <th><ins>Drama</ins><sup>6</sup></th>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.google.com/search?q=Strong+Girl+Bong+Soon" target="_blank">
+                <img class="poster" src="https://media.matamata.com/thumbs/2022/10/31/93109-sinopsis-strong-girl-bong-soon-instagramatnetmediatama/o-img-93109-sinopsis-strong-girl-bong-soon-instagramatnetmediatama.jpg" alt="Strong Girl Bong Soon poster">
+                <div class="poster-title"><mark><em>trong Girl Bong Soon</em></mark></div>
+              </a>
+            </td>
+            <td>
+              <a href="https://www.google.com/search?q=200+Pounds+Beauty" target="_blank">
+                <img class="poster" src="http://media-cache-ak0.pinimg.com/736x/e3/08/8a/e3088aea193934af60f181528d84b8b7.jpg" alt="200 Pounds Beauty poster">
+                <div class="poster-title"><mark><em>200 Pounds Beauty</em></mark></div>
+              </a>
+            </td>
+            <td>
+              <a href="https://www.google.com/search?q=Hotel+Del+Luna" target="_blank">
+                <img class="poster" src="https://m.media-amazon.com/images/S/pv-target-images/6b1bf553e33d0489496d8c55dcd341872e33c590a40dfa9cb410c5e564fe0974.jpg" alt="Hotel Del Luna poster">
+                <div class="poster-title"><mark><em>Hotel Del Luna</em></mark></div>
+              </a>
+            </td>
+          </tr>
+          <!-- Row 3 -->
+          <tr>
+         <th><ins>Drama</ins><sup>7</sup></th>
+         <th><ins>Drama</ins><sup>8</sup></th>
+         <th><ins>Drama</ins><sup>9</sup></th>
+          </tr>
+          <tr>
+            <td>
+              <a href="https://www.google.com/search?q=Legend+of+the+Blue+Sea" target="_blank">
+                <img class="poster" src="https://i.pinimg.com/originals/e8/36/f9/e836f9904ec8b4fde0634068bd9b41de.jpg" alt="Legend of the Blue Sea poster">
+                <div class="poster-title"><mark><em>Legend of the Blue Sea</em></mark></div>
+              </a>
+            </td>
+            <td>
+              <a href="https://www.google.com/search?q=Love+in+the+Moonlight" target="_blank">
+                <img class="poster" src="https://www.themoviedb.org/t/p/original/ferQo8rMQzNvCV2hWTU9CwLhYms.jpg" alt="Love in the Moonlight poster">
+                <div class="poster-title"><mark><em>Love in the Moonlight</em></mark></div>
+              </a>
+            </td>
+            <td>
+              <a href="https://www.google.com/search?q=Crash+Landing+on+You" target="_blank">
+                <img class="poster" src="https://tse1.mm.bing.net/th/id/OIP.lHaB6geGpfuMuXfj59S4_QHaHa?pid=Api&P=0&h=220" alt="Crash Landing on You poster">
+                <div class="poster-title"><mark><em>Crash Landing on You</em></mark></div>
+              </a>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p><small>&copy; 2025 Drama Collections | All rights reserved!</small></p>
+  </footer>
+</body>
+</html>

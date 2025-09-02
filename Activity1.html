@@ -1,0 +1,104 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Activity 1</title>
+
+    <style>
+        /* General page styling */
+        body {
+            margin: 0; /* Removes default browser margin */
+            font-family: Arial, Helvetica, sans-serif; /* Font used */
+        }
+
+        /* This is the header and footer alignment */
+        header, footer {
+            text-align: center;
+            padding: 0px;
+        }
+
+        /* Space inside the main section */
+        main {
+            padding: 0px;
+        }
+
+        /* Container for image and overlay text */
+        .image-container {
+            position: relative; /* Needed to position overlay text correctly */
+            text-align: center;
+        }
+
+        /* Makes image scale to container */
+        .image-container img {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Overlay text styling (appears on top of image) */
+        .overlay-text {
+            position: absolute; /* Positions it relative to container */
+            top: 50%;   /* Center vertically */
+            left: 50%;  /* Center horizontally */
+            transform: translate(-50%, -50%); /* Perfect centering */
+            color: white;
+            font-size: 18px;
+            font-weight: light;
+            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+            padding: 20px 30px;
+            border-radius: 20px; /* Rounded edges */
+            width: 75%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <h1 style="color:red"><b>Introduction</b></h1>
+    </header>
+
+    <!-- Main content section -->
+    <main>
+        <div class="image-container">
+            <!-- Background image -->
+            <img src="https://images.nagwa.com/963103576591.jpg" alt="Stars" title="Stars">
+
+            <!-- Text overlay on image -->
+            <div class="overlay-text">
+                <h2 style="color:white">About Me:</h2>
+                <h3><em>Have a nice day!</em></h3>
+                <h4 style="text-align:left">So, let me introduce myself.</h4>
+
+                <!-- Personal introduction paragraph -->
+                <p style="text-indent:50px; text-align:center">
+                    <i>Hi!</i> My name is <mark>Michelle A. Salapare.</mark> 
+                    You can call me <b>Mich</b> or <ins>Chelle,</ins>.
+                    I'm <sub>24</sub> years old. 
+                    I was born on <em>May 27, 2001</em> and I live in <em>San Juan, Batangas.</em>  
+
+                    I'm a 3<sup>rd</sup> year student and currently taking <abbr>BSIT</abbr> 
+                    - <small>Service Management</small> program.  
+
+                    I love making flowers using <strong>fuzzy wires</strong> and sell them 
+                    <del>to make an income.</del>  
+
+                    I just <i>love</i> <mark>stars</mark> that's why I used this <del>image.</del>
+                    <!-- Quote block -->
+                        <p><q><small><i>Everything happens for a reason</i></small></q>
+                </p>
+            </div>
+
+            <!-- This is a Copyright text -->
+            <h5 style="color:blue">Copyright©2025 All Rights Reserved</h5>
+        </div>
+    </main>
+
+    <!-- This is the Footer section with external link -->
+    <footer>
+        <h6>
+            <a href="https://images.search.yahoo.com/search/images?p=stars" target="_blank"> Click here for more images!</a>
+        </h6>
+    </footer>
+</body>        
+</html>
